@@ -1,0 +1,4 @@
+set solib-search-path ./obj/local/armeabi
+directory /home/carlosb/Documentos/Doctorado/android-ndk-r8d/platforms/android-8/arch-arm/usr/include /home/carlosb/Documentos/Doctorado/android-ndk-r8d/sources/cxx-stl/gnu-libstdc++ ../../OpenCV-2.4.6-android-sdk/sdk/native/jni/include/opencv ../../OpenCV-2.4.6-android-sdk/sdk/native/jni/include /home/carlosb/Documentos/Doctorado/android-ndk-r8d/sources/cxx-stl/gnu-libstdc++/4.6/include /home/carlosb/Documentos/Doctorado/android-ndk-r8d/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include
+file ./obj/local/armeabi/app_process
+target remote :5039
